@@ -45,3 +45,42 @@ export const getAllBooks = async (req, res) => {
     console.log("error in get all books controller", error);
   }
 };
+
+
+export const editbooks = async (req,res)=>{
+  try {
+
+    const {id}= req.params;
+    const {title,author,publishedDate}= req.body;
+    const book= await Book.findByIdAndUpdate(id,{
+      title,
+      author,
+      publishedDate
+    },{new:true});
+
+    if (!book){
+      return res.status(404).json({
+        success:false,
+        message:"book not found"
+      })
+    }
+
+    if (!title && !author && !publishedDate){
+      return res.status(400).json({
+        success:false,
+        message:"atleast one field required to update"
+      })
+    }
+    return res.status(200).json({
+      success:true,
+      message:"book updated successfully",
+      data:book
+    })
+    
+  } catch (error) {
+    res.status(500).json({
+      success:false,
+      message:"error in edit book controller"
+    })
+  }
+}
