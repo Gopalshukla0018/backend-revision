@@ -33,3 +33,23 @@ export const deleteUserData = (req, res) => {
     user,
   });
 };
+
+
+export const updateUserData = (req, res) => {
+  const { id, updates } = req.body; 
+
+
+  const index = user.findIndex(u => u.id ===  Number(id));
+
+  if (index === -1) {
+    return res.status(404).json({ message: "User not found" });
+  }
+
+ user[index] = { ...user[index], ...updates };
+
+  return res.status(200).json({
+    message: "User updated successfully",
+    user: user[index] 
+  });
+};
+
