@@ -23,13 +23,10 @@ export const getUser = (req, res) => {
       users,
     });
   } catch (error) {
-    
-    
-     console.log("Error in getUser controller:", error);
+    console.log("Error in getUser controller:", error);
     return res.status(500).json({
       message: "Failed to fetching user. Please try again later.",
     });
-    
   }
 };
 
@@ -53,7 +50,7 @@ export const createUser = (req, res) => {
       users: newUsers,
     });
   } catch (error) {
-     console.log("Error in createUser controller:", error); // Terminal par error dekhein
+    console.log("Error in createUser controller:", error); // Terminal par error dekhein
     return res.status(500).json({
       message: "Failed to create user. Please try again later.",
     });
@@ -68,11 +65,42 @@ export const removeUser = (req, res) => {
       message: "user deleted successfully",
       users,
     });
-  } catch (error) { 
-   
-     console.log("Error in removeUser controller:", error);
+  } catch (error) {
+    console.log("Error in removeUser controller:", error);
     return res.status(500).json({
       message: "Failed to remove  user. Please try again later.",
+    });
+  }
+};
+
+export const updateUser = (req, res) => {
+  try {
+    const id = parseInt(req.params.id);
+    const { name, email } = req.body;
+    const user = users.find((u) => u.id === id);
+    if (!user) {
+      return res.status(404).json({
+        message: "user not found",
+      });
+    }
+    if (!name && !email) {
+      return res
+        .status(400)
+        .json({ message: "Provide name or email to update" });
+    }
+
+    if (name) user.name = name;
+
+    if (email) user.email = email;
+
+    return res.status(200).json({
+      message: "user updates succesfully",
+      users,
+    });
+  } catch (error) {
+    console.log("Error in updateUser controller:", error);
+    return res.status(500).json({
+      message: "Failed to update user. Please try again later.",
     });
   }
 };
