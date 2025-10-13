@@ -14,4 +14,4 @@ app.get("/dashboard", isAuthenticated, (req, res) => {
   res.send("Welcome to your dashboard! Only authenticated users can see this.");
 });
 
-app.listen(PORT, () => console.log(`🚀 Server running on http://localhost:${PORT}`));
+app.listen(PORT, () => console.log(` Server running on http://localhost:${PORT}`));
