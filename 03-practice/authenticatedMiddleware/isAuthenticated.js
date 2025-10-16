@@ -7,6 +7,6 @@ export const isAuthenticated = (req, res, next) => {
   }
 
   // Normally, you would verify token here
-  console.log(" User authenticated");
+  console.log("✅ User authenticated");
   next();
 };
