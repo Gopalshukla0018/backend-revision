@@ -3,7 +3,7 @@ import {
   createbook,
   getAllBooks,
   editbooks,
-} from "../controller/books.controller.";
+} from "../controller/books.controller.js";
 
 const router = express.Router();
 
@@ -14,6 +14,6 @@ router.post("/", createbook);
 // @route   GET /api/books
 // @desc    Get all books
 router.get("/", getAllBooks);
-router.post("/edit/:id", editbooks);
+router.patch("/edit/:id", editbooks);
 
 export default router;

@@ -1,0 +1,174 @@
+[33mcommit d92c91129a2825eac6a8b321cb49ab3933a3e70c[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Gopal Shukla <gopalshukla0018@gmail.com>
+Date:   Fri Nov 14 10:00:00 2025 +0530
+
+    feat: add editbooks controller and update routes for book editing
+
+[33mcommit 38f0e85b2990ffb9cba6ac365f9a1c666c39cf66[m
+Author: Gopal Shukla <gopalshukla0018@gmail.com>
+Date:   Thu Nov 14 10:00:00 2024 +0530
+
+    feat: add editbooks controller and update routes for book editing
+
+[33mcommit bb24a199ae213cd04c5b0b368536836d7a980597[m
+Author: Gopal Shukla <gopalshukla0018@gmail.com>
+Date:   Thu Oct 30 23:16:17 2025 +0530
+
+    remove dublicates
+
+[33mcommit 7bf0a7f3a7143f5953a00387efae505c812323e0[m
+Author: Gopal Shukla <gopalshukla0018@gmail.com>
+Date:   Fri Oct 24 17:17:00 2025 +0530
+
+    Refined book routes — improved structure, naming, and comments for clarity
+
+[33mcommit 40cddd4b75f980057f21e9f2f1e88a68d24df037[m
+Author: Gopal Shukla <gopalshukla0018@gmail.com>
+Date:   Wed Oct 22 17:17:00 2025 +0530
+
+    Chapter 5 practice: getAllBooks controller with edge cases (22 Oct 2025)
+
+[33mcommit a3781408739ae24644b91ccf4f98039ba08a3157[m
+Author: Gopal Shukla <gopalshukla0018@gmail.com>
+Date:   Tue Oct 21 17:17:00 2025 +0530
+
+    Chapter 5 completed and tested with Postman
+
+[33mcommit 4b8875e39c49f881642047cfb46c800b2533bacf[m
+Author: Gopal Shukla <gopalshukla0018@gmail.com>
+Date:   Mon Oct 20 17:17:00 2025 +0534
+
+    fix: chapter name
+
+[33mcommit 67eb905dc20ed3248498e67c5b6226deb657e9b5[m
+Author: Gopal Shukla <gopalshukla0018@gmail.com>
+Date:   Mon Oct 20 17:17:00 2025 +0530
+
+    Chapter 5 practice completed
+
+[33mcommit 8ccf315f256616bf3e81d91c10db440462ca1bd3[m
+Author: Gopal Shukla <gopalshukla0018@gmail.com>
+Date:   Fri Oct 17 13:00:00 2025 +0530
+
+    17 Oct: MongoDB fetch /data route added
+
+[33mcommit 3aa30aac92b4fe08fbf4284fe2604e5f95e55ece[m
+Author: Gopal shukla <gopalshukla0018@gmail.com>
+Date:   Wed Oct 15 23:00:00 2025 +0530
+
+    Added response time logger middleware practice
+
+[33mcommit 8e209d5887f13ef01ea8ded9663ae9e351f86ac4[m
+Author: Gopal shukla <gopalshukla0018@gmail.com>
+Date:   Thu Oct 16 23:53:00 2025 +0530
+
+     Connected MongoDB successfully (Chapter 4 completed)
+
+[33mcommit 64c73791f30a20a695c9f296fe7ade4e04181753[m
+Author: Gopal shukla <gopalshukla0018@gmail.com>
+Date:   Thu Oct 16 23:47:37 2025 +0530
+
+    feat: setu[p for chapter 4 mongodb
+
+[33mcommit aee8a994ce59a3326c6f5ffc0477f378508b3cc0[m
+Author: Gopal shukla <gopalshukla0018@gmail.com>
+Date:   Tue Oct 14 12:28:00 2025 +0530
+
+     Practice #4 – Response Time Logger Middleware
+
+[33mcommit c888f88432b48b2e8c7849bf377a499ba2e7f9de[m
+Author: Gopal shukla <gopalshukla0018@gmail.com>
+Date:   Tue Oct 14 23:58:35 2025 +0530
+
+    new setup oractise question
+
+[33mcommit f577db4d319c90ee9c5cdbd73dfad3b1182393dd[m
+Author: Gopal shukla <gopalshukla0018@gmail.com>
+Date:   Mon Oct 13 23:57:57 2025 +0530
+
+    remove rocket
+
+[33mcommit 4412b99671ca584a4c477f03f1fc3d55499d0af5[m
+Author: Gopal shukla <gopalshukla0018@gmail.com>
+Date:   Mon Oct 13 23:57:15 2025 +0530
+
+    feat:Practice #2 – Protected Routes with isAuthenticated middleware
+
+[33mcommit 69f83be328bc1fb2756999198f70102498951027[m
+Author: Gopal shukla <gopalshukla0018@gmail.com>
+Date:   Sun Oct 12 21:26:00 2025 +0530
+
+    12 Oct: Practice #1 – Request Counter Middleware added
+
+[33mcommit 5f35cde736e90b5c95ece417f2422981cbc5562b[m
+Author: Gopal shukla <gopalshukla0018@gmail.com>
+Date:   Sat Oct 11 23:57:55 2025 +0530
+
+    feat: add chapter 3 middlewares
+
+[33mcommit 55b219233673d64e0c537faac1d4c51d73c545b5[m
+Author: Gopal shukla <gopalshukla0018@gmail.com>
+Date:   Sat Oct 11 23:52:54 2025 +0530
+
+    setup chapter 03- middleware
+
+[33mcommit 073a4e557bf0d762a88ccecbe116980e80d97fb3[m
+Author: gopalshukla0018 <gopalshukla0018@gmail.com>
+Date:   Wed Sep 24 18:25:39 2025 +0530
+
+    feat(02-practice)
+    : add updateUser functionality to update user by ID
+
+[33mcommit 59fd1f3ce6665fda8594ecd446159f83fd286c05[m
+Author: gopalshukla0018 <gopalshukla0018@gmail.com>
+Date:   Wed Sep 24 17:07:02 2025 +0530
+
+    feat:(02practice) implement basic users API with GET, POST and DELETE endpoints
+
+[33mcommit 7340f4a6d4d11276878554df68cdf7498a862ac2[m
+Author: gopalshukla0018 <gopalshukla0018@gmail.com>
+Date:   Wed Sep 24 15:22:59 2025 +0530
+
+    feat: Complete a 02-ptractice practice questions
+
+[33mcommit fd6f6a4bbd47358090eee875b5b11ddc74f44d84[m
+Author: gopalshukla0018 <gopalshukla0018@gmail.com>
+Date:   Wed Sep 24 13:39:59 2025 +0530
+
+    feat (02-routing_And_Controller) implemented deleteUserData
+
+[33mcommit 83e10d574863cc3d26b32e18af1f99ce0936520f[m
+Author: gopalshukla0018 <gopalshukla0018@gmail.com>
+Date:   Wed Sep 24 13:14:08 2025 +0530
+
+    featur(02-roouter and controller) Implement DELETE /data endpoint to remove a user by ID
+
+[33mcommit b70ed3746f410f002a52b06b533f06c03e78ca1f[m
+Author: gopalshukla0018 <gopalshukla0018@gmail.com>
+Date:   Wed Sep 24 11:50:06 2025 +0530
+
+    feat(chapter 2): Add createUserData API and POST route
+
+[33mcommit f6c5e2dd2b4c852cdc2ad6b51ec391a3509ec53f[m
+Author: gopalshukla0018 <gopalshukla0018@gmail.com>
+Date:   Wed Sep 24 11:15:21 2025 +0530
+
+    feat(chapter-2): revision Express routing and controllers
+
+[33mcommit 9a3914fd8f8986c339b046e3b1c5f2feeb1d7153[m
+Author: gopalshukla0018 <gopalshukla0018@gmail.com>
+Date:   Fri Sep 19 13:18:17 2025 +0530
+
+    chore: Remove temporary console.log
+
+[33mcommit 61387318c7ea3bf48e28baa0056437334827224c[m
+Author: gopalshukla0018 <gopalshukla0018@gmail.com>
+Date:   Fri Sep 19 13:15:24 2025 +0530
+
+    feat: Add basic Express server with ES module setup
+
+[33mcommit c39f4a668dda5de56ba055b444b0865c8c316793[m
+Author: GOPAL SHUKLA <89374640+Gopalshukla0018@users.noreply.github.com>
+Date:   Fri Sep 19 12:55:14 2025 +0530
+
+    Initial commit

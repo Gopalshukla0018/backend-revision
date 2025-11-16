@@ -18,7 +18,7 @@ export const createbook = async (req, res) => {
     await book.save();
 
     return res.status(200).json({
-      succcess: true,
+      success: true,
       message: "Book added successfuly",
       data: book,
     });
