@@ -14,6 +14,6 @@ router.post("/", createbook);
 // @route   GET /api/books
 // @desc    Get all books
 router.get("/", getAllBooks);
-router.patch("/edit/:id", editbooks);
+router.patch("/:id", editbooks);
 
 export default router;
