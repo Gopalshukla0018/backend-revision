@@ -23,6 +23,7 @@ app.post("/api/upload", upload.single("myfile"), (req, res) => {
     message: "done ",
   });
 });
+
 app.use("/uploads", express.static("upload/Form_Data"));
 
 app.get("/api/images", (req, res) => {
