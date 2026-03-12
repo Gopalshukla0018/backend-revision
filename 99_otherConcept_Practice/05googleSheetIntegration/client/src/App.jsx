@@ -6,20 +6,21 @@ function App() {
   const [sheetUrl, setSheetUrl] = useState("")
   const [data, setData] = useState(null)
   const syncNow = async () => {
-    const res = await fetch("http://localhost:3000/api/sheet/sheetExtraction", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json"
-      },
-      body: JSON.stringify({ sheetUrl })
-    });
+    try {
+      const res = await fetch("http://localhost:3000/api/sheet/sheetExtraction", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify({ sheetUrl })
+      });
 
-    const result = await res.json();
-    setData(result)
-    console.log(result);
-    console.log("aaa", data)
-
-
+      const result = await res.json();
+      setData(result)
+      console.log(result);
+    } catch (error) {
+      console.error("Error fetching sheet data:", error);
+    }
   }
 
   return (
